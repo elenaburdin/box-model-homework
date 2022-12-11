@@ -1,0 +1,71 @@
+/* 
+THE ONLY PROPERTIES YOU NEED:
+- display 
+- border properties
+- margin properties
+- padding properties
+- width & height
+- background-color
+- color
+- box sizing
+*/
+
+
+li {
+    display: inline;
+}
+
+a {
+    border-right: 1px solid black;
+    margin-left: 10px;
+    padding-right: 10px;
+}
+
+li:last-of-type a {
+    border-right: 0;
+}
+
+img {
+    height: 200px;
+    width: 300px;
+    margin: 10px;
+    padding: 5px;
+    border-right: 5px solid #d40c08;
+    background-color: #f8d210;
+}
+
+img:hover {
+    background-color: #08c0d4;
+}
+
+#register-form input {
+    display: block;
+    width: 400px;
+    height: 30px;
+    margin: 5px;
+    border: 1px solid #b9bbc7;
+    border-top: 5px solid #4C5270;
+
+}
+
+#register-form input:nth-of-type(2) {
+    border: 1px solid #b9bbc7;
+
+}
+
+#register-form button {
+    background-color: #3041a6;
+    color: #fff;
+    border: 0;
+    padding: 5px;
+    margin: 5px;
+    width: 405px;
+    display: block;
+
+}
+
+
+/* 
+#register-form input:nth-last-child() {
+    border-top: 1px solid #8c8c8c;
+} */
